@@ -22,5 +22,5 @@ umask 0 && cd /tmp/helper && \
 
 # Install some python software
 umask 0 && xvfb-run sh -c "\
-  wine pip install MetaTrader5 pandas numpy numba pytz pyarrow; \
+  wine pip install MetaTrader5 pandas numpy numba pytz pyarrow pandas_ta schedule; \
   wineserver -w"
