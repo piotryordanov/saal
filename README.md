@@ -17,3 +17,11 @@ wine python main.py
 It will do the following:
 1. Connect to a demo account on AMP futures.
 2. Fetch the latest data from ME
+
+# Running
+You might need to make sure to run wine once in the current directory for this to work.
+```bash
+wine ./mt5/terminal.exe
+```
+
+The key is to make sure that wine picks up this exe as it already is setup with what's needed (Like for example allowing EA trading)
